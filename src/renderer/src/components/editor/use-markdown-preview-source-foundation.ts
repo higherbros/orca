@@ -13,7 +13,7 @@ import {
   getMarkdownPreviewSourceRelativePath,
   resolveMarkdownPreviewSourceWorktree
 } from './markdown-preview-source-routing'
-import { useDocumentDarkTheme } from './use-document-dark-theme'
+import { useDocumentDarkTheme } from '@/hooks/use-document-dark-theme'
 import { usePreserveSectionDuringExternalEdit } from './usePreserveSectionDuringExternalEdit'
 
 export function useMarkdownPreviewSourceFoundation({

@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef } from 'react'
 import { scrollTopCache, setWithLRU } from '@/lib/scroll-cache'
 import MermaidBlock from './MermaidBlock'
-import { useDocumentDarkTheme } from './use-document-dark-theme'
+import { useDocumentDarkTheme } from '@/hooks/use-document-dark-theme'
 
 type MermaidViewerProps = {
   content: string
